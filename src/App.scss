@@ -1,0 +1,20 @@
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+.scPage::-webkit-scrollbar {
+  width: 0!important;
+}
+input, textarea, select, button, Input, Button {
+	outline: none!important;
+  resize: none!important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
